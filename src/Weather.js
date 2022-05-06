@@ -17,23 +17,26 @@ export default function Weather() {
             <input
               type="submit"
               value="Search"
-              className="btn btn-success"
+              className="btn btn-success w-50"
             ></input>
           </div>
         </div>
       </form>
-      <h1>Frankfurt</h1>
-      <ul>
-        <li>Thursday 16:00</li>
-        <li>Mostly cloudy</li>
-      </ul>
+      <div className="headingContainer">
+        <h1>Frankfurt</h1>
+        <ul>
+          <li>Thursday 16:00</li>
+          <li>Mostly cloudy</li>
+        </ul>
+      </div>
       <div className="row">
         <div className="col-6">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
             alt="Mostly cloudy"
           ></img>
-          19°C
+          <span className="temperature">19</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-6">
           <ul>
