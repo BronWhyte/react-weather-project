@@ -6,30 +6,3 @@
 .Weather form {
   padding: 20px;
 }
-
-.Weather ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.Weather .headingContainer {
-  margin: 20px;
-}
-
-.Weather img {
-  vertical-align: center;
-}
-
-.Weather .temperature {
-  font-size: 60px;
-}
-
-.Weather .unit {
-  position: relative;
-  top: -30px;
-}
-
-.float-left {
-  float: left;
-}

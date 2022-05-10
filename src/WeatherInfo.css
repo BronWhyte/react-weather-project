@@ -1,0 +1,26 @@
+.WeatherInfo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.WeatherInfo .headingContainer {
+  margin: 20px;
+}
+
+.WeatherInfo img {
+  vertical-align: center;
+}
+
+.WeatherInfo .temperature {
+  font-size: 60px;
+}
+
+.WeatherInfo .unit {
+  position: relative;
+  top: -30px;
+}
+
+.float-left {
+  float: left;
+}
