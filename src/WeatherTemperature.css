@@ -1,0 +1,8 @@
+.temperature {
+  font-size: 60px;
+}
+
+.unit {
+  position: relative;
+  top: -30px;
+}

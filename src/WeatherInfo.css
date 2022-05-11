@@ -15,15 +15,6 @@
   margin-right: 5px;
 }
 
-.WeatherInfo .temperature {
-  font-size: 60px;
-}
-
-.WeatherInfo .unit {
-  position: relative;
-  top: -30px;
-}
-
 .float-left {
   float: left;
 }
