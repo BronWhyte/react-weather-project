@@ -8,8 +8,11 @@
   margin: 20px;
 }
 
-.WeatherInfo img {
+.WeatherInfo canvas {
   vertical-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 5px;
 }
 
 .WeatherInfo .temperature {
